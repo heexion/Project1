@@ -108,6 +108,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackReserveSize>104857600</StackReserveSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -127,11 +128,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Practice01.cpp" />
     <ClCompile Include="Source01.cpp" />
     <ClCompile Include="Source02.cpp" />
     <ClCompile Include="Source03.cpp" />
     <ClCompile Include="Source04.cpp" />
     <ClCompile Include="Source05.cpp" />
+    <ClCompile Include="Source06.cpp" />
+    <ClCompile Include="Source07.cpp" />
+    <ClCompile Include="Source08.cpp" />
+    <ClCompile Include="Source09.cpp" />
+    <ClCompile Include="Source10.cpp" />
+    <ClCompile Include="Source11.cpp" />
     <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
