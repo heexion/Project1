@@ -1,4 +1,3 @@
-﻿  ClassMain08.cpp
-  ClassMain09.cpp
-  코드를 생성하고 있습니다...
+﻿  ExceptionMain.cpp
+C:\mh\Project1\Project1\ExceptionMain.cpp(26,13): warning C4101: 'exception' :참조되지 않은 지역 변수입니다.
   Project1.vcxproj -> C:\mh\Project1\x64\Debug\Project1.exe
